@@ -3388,7 +3388,7 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			text-align: right;
+			/* text-align: right; */
 		}
 
 			#header > nav > ul {
@@ -3401,6 +3401,12 @@ input, select, textarea {
 					margin-left: 1.75em;
 					padding: 0;
 					vertical-align: middle;
+					border: 0;
+					color: rgba(255, 255, 255, 0.35);
+					font-size: 0.6em;
+					font-weight: bold;
+					letter-spacing: 0.25em;
+					text-transform: uppercase;
 				}
 
 					#header > nav > ul > li:first-child {
@@ -3411,7 +3417,7 @@ input, select, textarea {
 						border: 0;
 						color: rgba(255, 255, 255, 0.35);
 						display: inline-block;
-						font-size: 0.6em;
+						/* font-size: 0.6em; */
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
