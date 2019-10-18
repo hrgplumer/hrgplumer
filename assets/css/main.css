@@ -3903,15 +3903,12 @@ input, select, textarea {
 		}
 
 .video-background {
-	position: absolute;
-    top: 0;
-    bottom: 0;
+	position: fixed;
     right: 0;
-    left: 0;
-    margin: auto;
-    min-height: 50%;
-	min-width: 50%;
-	z-index: -1;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+	transform: translateX(calc((100% - 100vw) / 2));
 }
 
 #intro p {
@@ -3926,3 +3923,7 @@ input, select, textarea {
 	background-size: 100% 100%;
 	z-index: -1;
 } */
+
+.project {
+	border-top: 1px solid black;
+}
