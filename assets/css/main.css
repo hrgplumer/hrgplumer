@@ -3950,3 +3950,7 @@ input, select, textarea {
 .mt30 {
 	margin-top: 30px;
 }
+
+section#three {
+	color: #fff;
+}
